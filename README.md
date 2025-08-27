@@ -11,7 +11,7 @@ Podman is then used to build a container image from the supplied Dockerfile, whi
 
 An unprivileged rootless container is then run, sharing the host's network and IPC namespaces, bind-mounting the Intel RealSense D435 devnodes inside, and running the standard launch file.
 
-It should not be necessary to specify which device to use with launch params, as only once device was bind-mounted in. This worked perfectly fine with librealsense v2.55, but has since regressed...
+It should not be necessary to specify which device to use with launch params, as only one device was bind-mounted in. This worked perfectly fine with librealsense v2.55, but has since regressed...
 
 # Running
 
